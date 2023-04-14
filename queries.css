@@ -1,0 +1,31 @@
+@media (max-width: 375px) {
+  .wrapper {
+    padding: 4.8rem 0;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    padding: 0 2.4rem;
+  }
+
+  .header__heading {
+    font-size: 2.4rem;
+  }
+
+  .header__description {
+    width: 85%;
+  }
+
+  .card {
+    grid-column: 1;
+  }
+
+  .supervisor-card {
+    grid-row: 1;
+  }
+
+  .calculator-card {
+    grid-row: 4;
+  }
+}
