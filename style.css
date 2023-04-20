@@ -7,7 +7,7 @@
 }
 
 :root {
-  font-size: 62.5%;
+  /* font-size: 62.5%; */
 }
 
 body {
@@ -20,18 +20,18 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: hsl(0, 0%, 98%);
+  background-color: hsl(0 0% 98%);
 }
 
 .header {
-  margin-bottom: 5.2rem;
+  margin-bottom: 3.25rem;
 }
 
 .header__heading {
-  margin-bottom: 2rem;
-  font-size: 3.6rem;
+  margin-bottom: 1.5rem;
+  font-size: 2.25rem;
   text-align: center;
-  color: hsl(234, 12%, 34%);
+  color: hsl(234 12% 34%);
 }
 
 .header__heading span {
@@ -45,26 +45,26 @@ body {
 .header__description {
   width: 60%;
   margin: 0 auto;
-  font-size: 1.5rem;
+  font-size: 0.9375rem;
   text-align: center;
-  color: hsl(229, 6%, 66%);
+  color: hsl(229 6% 66%);
 }
 
 .container {
-  max-width: 120rem;
+  max-width: 75rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap: 2.4rem;
+  gap: 2rem;
 }
 
 .card {
   position: relative;
-  padding: 2.8rem 2.4rem;
-  box-shadow: 0 12px 10px hsla(212, 86%, 64%, 0.1);
+  padding: 1.75rem 2rem;
+  box-shadow: 0 12px 10px hsl(212 86% 64% / 0.1);
   border-radius: 11px;
   overflow: hidden;
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsl(0 0% 100%);
 }
 
 .line {
@@ -81,11 +81,11 @@ body {
 }
 
 .supervisor-card .line {
-  background-color: hsl(180, 62%, 55%);
+  background-color: hsl(180 62% 55%);
 }
 
 .team-builder-card .line {
-  background-color: hsl(0, 78%, 62%);
+  background-color: hsl(0 78% 62%);
 }
 
 .karma-card {
@@ -93,7 +93,7 @@ body {
 }
 
 .karma-card .line {
-  background-color: hsl(34, 97%, 64%);
+  background-color: hsl(34 97% 64%);
 }
 
 .calculator-card {
@@ -103,23 +103,23 @@ body {
 }
 
 .calculator-card .line {
-  background-color: hsl(212, 86%, 64%);
+  background-color: hsl(212 86% 64%);
 }
 
 .card__heading {
-  margin-bottom: 1.6rem;
-  font-size: 2rem;
-  color: hsl(234, 12%, 34%);
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  color: hsl(234 12% 34%);
 }
 
 .card__description {
-  margin-bottom: 12rem;
-  font-size: 1.5rem;
-  color: hsl(229, 6%, 66%);
+  margin-bottom: 7.5rem;
+  font-size: 0.9375rem;
+  color: hsl(229 6% 66%);
 }
 
 .icon {
   position: absolute;
-  bottom: 3.2rem;
-  right: 3.2rem;
+  bottom: 2rem;
+  right: 2rem;
 }
